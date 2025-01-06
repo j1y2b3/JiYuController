@@ -21,3 +21,5 @@
 ![ip文件](https://github.com/j1y2b3/JiYuController/blob/main/file/ip_csv.jpg?raw=true)
 
 右侧多选框则显示ip文件中的座位表，其它ip放在下面，可对选中的ip执行命令或发送消息
+
+“exe_update.py”是生成exe文件用的，时好时坏，有问题就多运行几遍
