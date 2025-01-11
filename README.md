@@ -4,7 +4,9 @@
 
 攻占信息课，~~破坏~~维护课堂秩序
 
-核心代码来自:<https://blog.csdn.net/mxymmxym/article/details/126343324>
+~~核心代码来自:<https://blog.csdn.net/mxymmxym/article/details/126343324>~~(这个关机关不掉了)
+
+核心代码来自:<https://github.com/ht0Ruial/Jiyu_udp_attack>
 
 ## 功能
 
