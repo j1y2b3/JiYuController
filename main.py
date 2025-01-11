@@ -3,7 +3,7 @@ from tkinter import ttk
 from tkinter.messagebox import showerror
 
 from ip_sites import IpSites
-import controller as ctl
+import hack
 
 win=tk.Tk()
 win.title("JiyuController")
@@ -20,14 +20,11 @@ def obey_command(*event):
     if ips==[]:
         showerror(title="JiyuController",message="没有指定ip")
         return
-    if command=="":
-        showerror(title="JiyuController",message="没有命令")
-        return
 
     print(*ips,sep=',',end=' [command]: ')
     print(command)
 
-    ctl.obey_command(ips,command)
+    hack.obey_command(ips,command)
 
 def send_message(*event):
     ips=ipsites.get()
@@ -40,7 +37,7 @@ def send_message(*event):
     print(*ips,sep=',',end=' [message]: ')
     print(message)
 
-    ctl.send_message(ips,message)
+    hack.send_message(ips,message)
 
 def ipsites_update(*event):
     global ipsites
